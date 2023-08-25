@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Header from './Components/Header';
+import Map from './Components/WeatherApp/Map';
+import UserList from './Components/UserApp/UserList';
+import TodoList from './Components/TodoApp/TodoList';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Header />
+        <Routes>
+          <Route path="/userlist" element={<UserList />} />
+          <Route path="/map" element={<Map />} />
+          <Route path="/todo" element={<TodoList />} />
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
