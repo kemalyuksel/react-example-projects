@@ -1,3 +1,44 @@
+# React Example Projects
+
+This repository contains a collection of React applications developed as examples for showcasing during interviews. Each application focuses on different aspects and features of React development.
+
+## Projects
+
+### Todo App
+
+This project includes a simple todo list application. The app allows users to add, edit, and complete tasks. Developed using React, the Todo App offers a user-friendly interface for managing tasks.
+
+- You can use the "Add" button to input new tasks.
+- Delete existing tasks
+- Mark tasks as completed or undo completion.
+
+### Weather App
+
+The Weather App is an application that utilizes the openweathermap API to fetch weather data for different locations and displays the weather conditions. It includes the following features:
+
+- Fetching weather data using the openweathermap API.
+- Displaying weather information such as temperature, humidity, and weather conditions.
+- Visual representation of weather conditions using weather icons.
+
+### User App
+
+The User App is an application that uses the randomuser.me API to retrieve random user information and displays it. It includes the following features:
+
+- Retrieving user data from the randomuser.me API.
+- Displaying user information such as name, email, and profile picture.
+
+## Installation
+
+To install and run any of the projects, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the specific project folder (e.g., `weather-app`) using the terminal.
+3. Run the following command to install dependencies:
+
+   ```sh
+   npm install
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
